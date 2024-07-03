@@ -1,0 +1,143 @@
+
+
+.technologies_info {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray);
+    border-radius: 48px;
+    padding: 42px 104px 0px 122px;
+    margin-top: 35px;
+}
+
+.white_fon {
+    margin-top: -68px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: -95%;
+    /* box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.33); */
+}
+
+.main_item_1 {
+    position: relative;
+    /* box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.33); */
+}
+
+.technologies_info_elements {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 466px;
+    width: 100%;
+    gap: 10px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 36px;
+}
+
+.technologies_info_grids {
+    padding: 10px 27px;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techno_1 {
+    background-color: var(--blue);
+}
+
+.techno_2 {
+    background-color: var(--yellow);
+}
+
+.techno_3 {
+    background-color: var(--orange);
+}
+
+.techno_4 {
+    background-color: var(--green);
+}
+
+.techno_5 {
+    background-color: var(--blue_x2);
+}
+
+.techno_6 {
+    background-color: var(--black_blue);
+}
+
+.techno_7 {
+    background-color: var(--purple);
+}
+
+.technologies_info_text {
+    margin-top: 25px;
+    max-width: 386px;
+    width: 100%;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 20px;
+    color: #22253b;
+}
+
+.technologies_h2 {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    color: #22253b;
+    margin-top: 10px;
+}
+
+/* T R A I N I N G S */
+
+.trainings {
+    margin-top: 84px;
+    padding-bottom: 87px;
+}
+
+.trainings_h2 {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    color: #22253b;
+}
+
+.trainings_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.trainings_item {
+    max-width: 270px;
+    width: 100%;
+    padding: 50px 33px 31px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--gray);
+    border-radius: 30px;
+}
+
+.trainings_item h5 {
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-size: 15px;
+    color: #22253b;
+    margin-top: 19px;
+}
+
+.trainings_item p {
+    margin-top: 10px;
+    font-family: 'Gilroy';;
+    font-weight: 400;
+    font-size: 13px;
+    color: #22253b;
+}

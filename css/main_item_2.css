@@ -1,0 +1,125 @@
+.demonstration {
+    background: url('../img/bd_new.JPG') center center/cover no-repeat;
+    padding-top: 55px;
+    padding-bottom: 88px;
+}
+
+.demonstration_watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    margin-bottom: 33px;
+}
+
+.demonstration_watch h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    color: #22253b;
+}
+
+.demonstration_watch p {
+    max-width: 642px;
+    width: 100%;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #22253b;
+}
+
+.video {
+    border-radius: 30px;
+    padding: 23px 18px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.33);
+    background-color: #fff;
+}
+
+iframe {
+    border-radius: 15px
+}
+
+.demonstration {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.demonstration_numbers{ 
+    background-color: #fff;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+
+
+.demonstration_number {
+    border-right: 2px solid #eaf2f5;
+    width: 100%;
+    max-width: 384px;
+    padding-right: 51px;
+    padding-left: 51px;
+}
+
+.end {
+    border-right: none;
+}
+
+.demonstration_number h3 {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    color: #22253b;
+    margin-top: 20px;
+}
+
+.demonstration_number p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    color: #22253b;
+    margin-top: 20px;
+}
+
+.demonstration_number h2 {
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-size: 77px;
+    text-align: left;
+    color: #38bff2;
+}
+
+.demonstration_start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 538px;
+    border-radius: 110px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 26px;
+}
+
+.demonstration_start p {
+    max-width: 214px;
+    width: 100%;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    color: #22253b;
+}
+
+.demonstration_btn {
+    max-width: 249px;
+}

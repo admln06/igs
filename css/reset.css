@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --orange: #F15525;
+    --blue: #5096FF;
+    --yellow: #FFB359;
+    --green: #4BD071;
+    --blue_x2: #50C0FF;
+    --black_blue: #4B77B9;
+    --purple: #AF93FF;
+    --black: #181818;
+    --gray:  #eaf2f5;
+    /* z-index: -10; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    /* font-size: var(--font-s); */
+}

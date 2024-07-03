@@ -1,0 +1,48 @@
+.additionally {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 93px 0px;
+}
+
+.additionally h3 {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    color: #22253b;
+    margin-bottom: 18px;
+}
+
+.additionally p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    color: #22253b;
+}
+
+.additionally_img {
+    max-width: 401px;
+    width: 100%;
+    padding: 41px 65px;
+    background-color: var(--gray);
+    border-radius: 40px;
+}
+
+.additionally_img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.additionally_descr {
+    border-radius: 40px;
+    background-color: var(--gray);
+    max-width: 730px;
+    width: 100%;
+    padding: 54px 0px;
+    padding-left: 100px;
+    padding-right: 54px;
+    text-align: left;
+}

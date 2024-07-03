@@ -1,0 +1,132 @@
+.footer_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 0 52px 0;
+    border-bottom: 1px solid #d8d8d8;;
+}
+
+.icon_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contacts {
+    display: flex;
+    flex-direction: column; 
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column; 
+}
+
+.footer_link{
+    max-width: 35px;
+    height: 35px;
+    width: 100%;
+    background-color: var(--black);
+    object-fit: cover;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_links img {
+    margin: 18px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 17px;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 188px;
+    width: 100%;
+}
+
+.footer_logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer_logo p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+.footer_logo_img {
+    max-width: 87px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer_logo_img img {
+    width: 100%;
+}
+
+.icon_links {
+    display: flex;
+    flex-direction: column;
+    max-width: 257px;
+    width: 100%;
+    gap: 40px;
+}
+
+.footer_ul{
+    display: flex;
+    gap: 25px;
+    flex-direction:column;
+}
+
+.footer_ul a {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 13px;
+    color: #22253b; 
+}
+
+.data p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    color: #8e8e8e;
+}
+
+.footer_contacts {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    color: #22253b;
+    display: flex;
+    gap: 65px;
+    flex-direction:column;
+    line-height: 23px;
+}
+
+.contacts a {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    color: #38bff2;
+}
+
+.data {
+    line-height: 23px;
+}
+
+.footer_under {
+    padding: 28px 0 28px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color: #8e8e8e;
+}
